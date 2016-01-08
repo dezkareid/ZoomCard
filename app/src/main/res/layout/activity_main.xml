@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="mx.dezkareid.zoomcard.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="40dp"
+        android:text="Never" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="40dp"
+        android:text="Forget" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="30dp"
+        android:layout_above="@+id/loveLabel"
+        android:textAlignment="center"
+        android:text="I am the fastest man alive" />
+
+    <TextView
+        android:id="@+id/loveLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:textSize="20dp"
+        android:text="With love Zoom"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/theflashcircle"
+        />
+</RelativeLayout>
